@@ -12,3 +12,8 @@ const mockUpStrand = () => {
   }
   return newStrand
 }
+
+// Task 3
+const pAequorFactory = (specimenNum, dna) {
+
+}
