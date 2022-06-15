@@ -15,5 +15,7 @@ const mockUpStrand = () => {
 
 // Task 3
 const pAequorFactory = (specimenNum, dna) {
+  mutate(){
+  }
 
 }
