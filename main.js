@@ -14,10 +14,12 @@ const mockUpStrand = () => {
 }
 
 // Task 3
-const pAequorFactory = (specimenNum, dna) {
-  mutate(){
+class pAequorFactory {
+  constructor(specimenNum, dna) {
+    this.specimenNum = specimenNum;
+    this.dna = dna;
   }
-
+  
 }
 
 // Task 4
