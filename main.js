@@ -19,7 +19,9 @@ class pAequorFactory {
     this.specimenNum = specimenNum;
     this.dna = dna;
   }
-  
+  mutate() {
+    dna = returnRandBase();
+  }
 }
 
 // Task 4
