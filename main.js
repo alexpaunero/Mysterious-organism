@@ -16,11 +16,12 @@ const mockUpStrand = () => {
 // Task 3
 class pAequorFactory {
   constructor(specimenNum, dna) {
-    this.specimenNum = specimenNum;
-    this.dna = dna;
+    this._specimenNum = specimenNum;
+    this._dna = dna;
   }
   mutate() {
-    dna = returnRandBase();
+    this._dna = returnRandBase();
+    
   }
 }
 
