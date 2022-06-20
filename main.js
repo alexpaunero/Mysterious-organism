@@ -19,10 +19,23 @@ class pAequorFactory {
     this._specimenNum = specimenNum;
     this._dna = dna;
   }
+  get specimenNum() {
+    return this._specimenNum;
+  }
+  get dna() {
+    return this._dna;
+  }
   mutate() {
-    this._dna = returnRandBase();
-    
+    let newDna = returnRandBase();
+    while (newDna === this._dna){
+      newDna = returnRandBase();
+    }
+    this._dna = newDna;  
   }
 }
 
-// Task 4
+const abc = new pAequorFactory(1, 'A');
+console.log(abc.dna);
+console.log(abc.specimenNum);
+abc.mutate();
+console.log(abc.dna);
