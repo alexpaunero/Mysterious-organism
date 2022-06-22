@@ -34,6 +34,7 @@ class pAequorFactory {
   }
 }
 
+// Tests
 const abc = new pAequorFactory(1, 'A');
 console.log(abc.dna);
 console.log(abc.specimenNum);
