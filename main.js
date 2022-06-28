@@ -32,6 +32,9 @@ class pAequorFactory {
     }
     this._dna = newDna;  
   }
+  compareDNA(pAequorObj) {
+
+  }
 }
 
 // Task 4
