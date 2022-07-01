@@ -43,6 +43,9 @@ class pAequorFactory {
 // Task 5
 
 
+// Task 6
+
+
 // Tests
 const abc = new pAequorFactory(1, 'A');
 console.log(abc.dna);
